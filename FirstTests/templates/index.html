@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Shit</title>
+</head>
+<body>
+
+    <form action="{{ url_for('userPage', username=username, lastname=lastname, phone=phone, ciao=ciao) }}">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="username"><br>
+        <label for="fname">Last name:</label><br>
+        <input type="text" id="fname" name="lastname"><br>
+        <label for="fname">Phone:</label><br>
+        <input type="text" id="fname" name="phone"><br>
+        <label for="fname">Ciao:</label><br>
+        <input type="text" id="fname" name="ciao"><br>
+        <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
